@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-folder_path = "C:\\Users\\Thanawat\\Desktop\\Work\\Web\\Testcode\\image"
+folder_path = "./image"
 Allfile = []
 if os.path.exists(folder_path):
     files = os.listdir(folder_path)
@@ -15,20 +15,20 @@ else:
     print("โฟลเดอร์ไม่พบ")
 
 # Replace with your actual FastAPI server endpoint
-url = 'http://localhost:8000/create_movie'
+url = 'https://c6c4-161-246-147-96.ngrok-free.app/create_movie'
 
 # Load JSON data from file
 with open('./data.json', 'r') as json_file:
     movie_data = json.load(json_file)
-
-for index, value in enumerate(movie_data):
-    fileInput = "image/"+Allfile[index]
+i = 0
+for value in movie_data:
+    fileInput = "image/"+Allfile[i]
     # Prepare the files
     files = {
-        'file': (Allfile[index], open(fileInput, 'rb')),
+        'file': (Allfile[i], open(fileInput, 'rb')),
         'movie_data': ('movie_data.json', json.dumps(value), 'application/json')
     }
-
+    i += 1
     # Make the POST request
     response = requests.post(url, files=files)
 
