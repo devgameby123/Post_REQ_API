@@ -1,0 +1,42 @@
+[
+    {
+        "m_id": 4,
+        "m_name": "Saw X",
+        "duration": 118,
+        "rating": 7.1,
+        "story": "A sick and desperate John travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer only to discover the entire operation is a scam to defraud the most vulnerable.",
+        "c_id": [8, 9, 12],
+        "Comment": [
+            "Enjoyed the movie, great storyline and characters. A few twists kept it interesting!",
+            "Disliked the movie. The storyline felt forced, and the characters lacked depth.",
+            "Impressive film! The duration was just right, and the unexpected turns added to the excitement.",
+            "Saw X is a rollercoaster of emotions. Gripping from start to finish!",
+            "The rating is justified. A solid 7.1 for a unique storyline and compelling characters.",
+            "Mixed feelings about Saw X. Some moments were brilliant, while others fell flat.",
+            "Not for the faint-hearted. Saw X is a thrilling experience, but not everyones cup of tea.",
+            "Saw X exceeded my expectations. The story was dark and twisted, just as I like it.",
+            "7.1 is too generous. Saw X was a letdown, especially considering the hype.",
+            "The duration felt just right. Saw X delivered a gripping story without dragging it out."
+        ]
+    },
+    {
+        "m_id": 5,
+        "m_name": "Nowhere",
+        "duration": 109,
+        "rating": 6.4,
+        "story": "A sick and desperate John travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer only to discover the entire operation is a scam to defraud the most vulnerable.",
+        "c_id": [6, 12],
+        "Comment": [
+            "Not a fan of Nowhere. The story was confusing, and the duration felt too long.",
+            "Nowhere had its moments, but overall, it did leave a lasting impression.",
+            "The rating is too high for Nowhere. I expected more, but it fell short.",
+            "Nowhere is a hidden gem! The plot twists and character development were superb.",
+            "Average at best. Nowhere lacked the excitement and intensity I was hoping for.",
+            "Nowhere is a forgettable movie. The story was bland, and the characters were uninspiring.",
+            "Nowhere surprised me! The unexpected turns and suspense kept me engaged throughout.",
+            "6.4 is a fair rating for Nowhere. It had its flaws, but the overall experience was decent.",
+            "Nowhere is not for everyone. The unconventional storytelling may not appeal to mainstream audiences.",
+            "Enjoyed Nowhere. The storyline was unique, and the characters were relatable."
+        ]
+    }
+]
